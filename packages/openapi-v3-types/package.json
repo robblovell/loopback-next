@@ -1,6 +1,6 @@
 {
   "name": "@loopback/openapi-v3-types",
-  "version": "1.0.0-alpha.1",
+  "version": "0.1.0",
   "description": "TypeScript type definitions for OpenAPI Specifications.",
   "engines": {
     "node": ">=8"
@@ -16,7 +16,7 @@
     "build:apidocs": "lb-apidocs",
     "clean": "lb-clean loopback-openapi-v3-types*.tgz dist package api-docs",
     "prepublishOnly": "npm run build && npm run build:apidocs",
-    "verify": "npm pack && tar xf loopback-v3-types*.tgz && tree package && npm run clean"
+    "verify": "npm pack && tar xf loopback-openapi-v3-types*.tgz && tree package && npm run clean"
   },
   "author": "IBM",
   "copyright.owner": "IBM Corp.",
